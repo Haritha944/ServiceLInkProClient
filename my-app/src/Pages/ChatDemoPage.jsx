@@ -47,7 +47,7 @@ const ChatDemoPage = () => {
       }
 
       console.log('Before WebSocket initialization.............///');
-      ws.current = new WebSocket(`ws://localhost:8000/ws/chat/${senderId}/${receiverId}/${senderType}/${receiverType}/`);
+      ws.current = new WebSocket(`wss://api.servicelinkpro.online/ws/chat/${senderId}/${receiverId}/${senderType}/${receiverType}/`);
 
       ws.current.onopen = () => {
           console.log('WebSocket connection established................./////');
