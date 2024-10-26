@@ -36,10 +36,10 @@ const ServicerSubscriptionStatusComponent = () => {
             Your payment was not completed. Please try again or contact support if you need help.
           </p>
           <Link
-            to="/homepage"
+            to="/servicecreate"
             className="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700"
           >
-            Go to Home
+            Go to Service Creation
           </Link>
           
         </div>
