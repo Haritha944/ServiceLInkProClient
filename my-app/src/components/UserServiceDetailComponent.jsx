@@ -105,7 +105,7 @@ const handleNewReview = (newReview) => {
                     <div className="md:w-1/2 md:mb-0 mb-10 mt-3">
                         <img 
                             className="max-w-full h-90 rounded-lg shadow-lg" 
-                            src={`http://127.0.0.1:8000${selectedService.images}`} 
+                            src={`https://api.trendyfoot.online${selectedService.images}`} 
                             alt={`${selectedService.name} - ${selectedService.city}`} 
                         />
                     </div>
