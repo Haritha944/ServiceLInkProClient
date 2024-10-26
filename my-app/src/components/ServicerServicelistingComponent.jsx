@@ -90,7 +90,7 @@ function ServicerServicelistingComponent  ()  {
             <div key={service.id} className="flex justify-center mb-4">
                 <div className="max-w-sm bg-white border border-teal-400 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mr-2 ml-2">
                     <a href="#">
-                        <img className="p-3 rounded-lg shadow w-full h-50 object-cover"  src={`https://api.trendyfoot.online/media/${service.images}`}  alt="product image" />
+                        <img className="p-3 rounded-lg shadow w-full h-50 object-cover"  src={`https://api.trendyfoot.online/media/service_images/${service.images}`}  alt="product image" />
                     </a>
                     <div className="px-6 pb-6 mb-1">
                         <a>
