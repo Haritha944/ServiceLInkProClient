@@ -258,7 +258,7 @@ function UserServicelistComponent  ()  {
                 className="max-w-sm rounded overflow-hidden shadow-lg m-4 cursor-pointer"
                 onClick={() => handleServiceClick(service)}
               >
-                <img className="w-full h-40" src={`https://api.trendyfoot.online${service.images}`} alt="Service" />
+                <img className="w-full h-40" src={`https://api.trendyfoot.online/media/service_images/${service.images.split('/').pop()}`} alt="Service" />
                 <div className="px-6 py-4 text-left">
                   <div className="font-bold text-teal-700 text-lg mb-2">{service.name}</div>
                   <p className="text-orange-700 font-semibold">Service Type: {service.service_type}</p>
