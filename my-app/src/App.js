@@ -50,15 +50,15 @@ function App() {
        <Route path="/homepage" element={<Homepage />}/>
         <Route path="/signup" element={<UserSignupPage/>}/>
         <Route path="/login" element={<UserLoginPage/>}/>
-        <Route path="/userprofile" element={<PrivateRoute><UserProfilePage/></PrivateRoute>}/>
+        <Route path="/userprofile" element={<UserProfilePage/>}/>
         <Route path="/userservice" element={<UserServicelistingPage/>}/>
         <Route path="/userservicedetail/:serviceId" element={<UserServiceDetailPage/>}/>
         <Route path="/request-reset" element={<UserPasswordResetPage/>}/>
         <Route path="/reset-password" element={<UserResetPasswordComponent/>}/>
         <Route path="/verifyOTP" element={<UserOTPVerificationPage/>}/>
-        <Route path="/userreviewbooking" element={<PrivateRoute><UserReviewBookingPage/></PrivateRoute>}/>
-        <Route path="/order-status" element={<PrivateRoute><UserOrderStatusPage/></PrivateRoute>}/>
-        <Route path="/userbookings" element={<PrivateRoute><UserBookingPage/></PrivateRoute>}/>
+        <Route path="/userreviewbooking" element={<UserReviewBookingPage/>}/>
+        <Route path="/order-status" element={<UserOrderStatusPage/>}/>
+        <Route path="/userbookings" element={<UserBookingPage/>}/>
         
         <Route path="/chat1" element={<ChatDemoPage/>}/>
         <Route path="/chat2" element={<ChatDemosecondPage/>}/>

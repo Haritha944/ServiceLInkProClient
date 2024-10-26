@@ -171,7 +171,7 @@ const handleNewReview = (newReview) => {
                         <div key={service.id} onClick={() => handleServiceClick(service)} className="flex-none mb-3 w-64 rounded overflow-hidden shadow-lg cursor-pointer ">
                            <img
                                className="w-full h-32 object-cover rounded-t-lg"
-                             src={`http://127.0.0.1:8000${service.images}`}
+                              src= {`https://api.trendyfoot.online/media/service_images/${service.images.split('/').pop()}`}
                             alt={service.name}/> 
 
                             <h3 className="text-lg font-semibold mt-2 p-2">{service.name}</h3>
