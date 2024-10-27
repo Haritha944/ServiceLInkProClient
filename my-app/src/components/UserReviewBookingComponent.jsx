@@ -182,7 +182,7 @@ return (
             <div className='flex flex-col md:flex-row items-center'>
                           <img 
                             className="w-20 h-20 rounded-lg shadow-lg" 
-                            src={`http://127.0.0.1:8000${serviceDetails.images}`} 
+                            src={`https://api.trendyfoot.online/media/service_images/${serviceDetails.images.split('/').pop()}`} 
                             alt={`${serviceDetails.name} - ${serviceDetails.city}`} 
                         />
             <h3 className="text-xl font-semibold mx-0 md:mx-5 mt-3 md:mt-0">{serviceDetails.name}</h3>
