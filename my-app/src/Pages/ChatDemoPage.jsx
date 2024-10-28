@@ -47,7 +47,7 @@ const ChatDemoPage = () => {
       }
 
       console.log('Before WebSocket initialization.............///');
-      ws.current = new WebSocket(`https://api.trendyfoot.online/ws/chat/${senderId}/${receiverId}/${senderType}/${receiverType}/`);
+      ws.current = new WebSocket(`wss://api.trendyfoot.online/ws/chat/${senderId}/${receiverId}/${senderType}/${receiverType}/`);
 
       ws.current.onopen = () => {
           console.log('WebSocket connection established................./////');
