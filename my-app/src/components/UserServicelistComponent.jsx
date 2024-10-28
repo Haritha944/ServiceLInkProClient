@@ -261,7 +261,7 @@ function UserServicelistComponent  ()  {
                 <img className="w-full h-40" src={`https://api.trendyfoot.online/media/service_images/${service.images.split('/').pop()}`} alt="Service" />
                 <div className="px-6 py-4 text-left">
                   <div className="font-bold text-teal-700 text-lg mb-2">{service.name}</div>
-                  <p className="text-orange-700 font-semibold">Service Type: {service.service_type}</p>
+                  <p className="text-orange-700 font-semibold truncate">Service Type: {service.service_type}</p>
                   <p className="text-orange-600 font-semibold text-base">Location:{service.city}</p>
                   <p className="text-base font-semibold text-sky-700">
                     Duration :{service.period} hrs
