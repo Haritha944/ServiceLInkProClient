@@ -94,7 +94,7 @@ const ChatDemoPage = () => {
     };
 }, [selectedServicer, currentUser]);
 
-console.log(selectSelectedServices)
+
 
 const handleSendMessage = (messageContent) => {
   if (ws.current && ws.current.readyState === WebSocket.OPEN) {
